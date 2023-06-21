@@ -1,15 +1,23 @@
-
-export const myTheme={
-    colors:{
-        primary:'gold',
-        secondary:'#fa3f78',
-        grey:{
-            dark:'#4b4747',
-            light:'#ded9d9',
+export const myTheme = {
+    colors: {
+        color1: '#FFFFFF',
+        color2: '#28553F',
+        color3: '#000000',
+        grey: {
+            dark: '#282A30',
+            light: '#DFDFDF2D',
         },
     },
-    media:{
-        tablet:'screen and (max-width:768px )',
-        mobile:'screen and (max-width:576px)'
+    fontFamily: {
+        weight: {
+            _400:'400px',
+            _500:'500px',
+            _600:'600px',
+            _700:'700px',
+        }
     },
+    media: {
+        mobile: 'screen and (max-width:360px)'
+    },
+
 }

@@ -12,3 +12,6 @@ function App() {
 
 export default App;
 
+const GeneralBox=styled.div`
+  max-width: 1140px;
+`
